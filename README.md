@@ -11,11 +11,11 @@ For more info visit [Webpack Module Federation](https://webpack.js.org/concepts/
 ## What`s happening
 
 ### Simple bi-directional
-Application A is sharing component `SayHelloFromA` and Application B is sharing component `SayHelloFromB`.  
-Both apps consume and expose each other components.  
+**Application A** is sharing component `SayHelloFromA` and **Application B** is sharing component `SayHelloFromB`.  
+Both apps expose their own components and consume each other components.  
 
 ### One host
-Application Host is consuming Application A and Application B components.
+**Application Host** is consuming **Application A** and **Application B** components.
 
 ## Guides
 
