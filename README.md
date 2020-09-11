@@ -15,5 +15,5 @@ Visit http://localhost:3001 and http://localhost:3002.
 ## What happened
 
 Application A is sharing component `SayHelloFromA` and Application B is sharing component `SayHelloFromB`.  
-Both apps consume and exposes each other components.  
+Both apps consume and expose each other components.  
 Sweet.
