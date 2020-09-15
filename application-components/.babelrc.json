@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "loose": true
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "emotion",
+      {
+        "sourceMap": true,
+        "labelFormat": "[local]"
+      }
+    ],
+    "react-hot-loader/babel"
+  ]
+}
