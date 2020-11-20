@@ -18,9 +18,9 @@ module.exports = {
   optimization: {
     minimizer: [
       new TerserPlugin({
-        cache: true,
+        // cache: true,
         parallel: true,
-        sourceMap: true, // Must be set to true if using source-maps in production
+        // sourceMap: true, // Must be set to true if using source-maps in production
         terserOptions: {
           // https://github.com/webpack-contrib/terser-webpack-plugin#terseroptions
         },

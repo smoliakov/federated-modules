@@ -10,7 +10,7 @@
   ],
   "plugins": [
     [
-      "emotion",
+      "@emotion",
       {
         "sourceMap": true,
         "labelFormat": "[local]"
