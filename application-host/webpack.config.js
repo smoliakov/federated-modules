@@ -7,7 +7,7 @@ module.exports = {
   mode,
   entry: './src/index',
   output: {
-    publicPath: 'http://localhost:3000/',
+    publicPath: 'http://localhost:3100/',
   },
   devtool: 'source-map',
   optimization: {
@@ -32,9 +32,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'application_host',
       remotes: {
-        application_a: 'application_a@http://localhost:3001/remoteEntry.js',
-        application_b: 'application_b@http://localhost:3002/remoteEntry.js',
-        components: 'components@http://localhost:3003/components.js',
+        application_a: 'application_a@http://localhost:3101/remoteEntry.js',
+        application_b: 'application_b@http://localhost:3102/remoteEntry.js',
+        components: 'components@http://localhost:3103/components.js',
       },
       shared: ['react', 'react-dom', 'prop-types'],
     }),

@@ -7,7 +7,7 @@ module.exports = {
   mode,
   entry: './src/index',
   output: {
-    publicPath: 'http://localhost:3001/', // New
+    publicPath: 'http://localhost:3101/', // New
   },
   devtool: 'source-map',
   optimization: {
