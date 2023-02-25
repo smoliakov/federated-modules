@@ -15,7 +15,6 @@
         "sourceMap": true,
         "labelFormat": "[local]"
       }
-    ],
-    "react-hot-loader/babel"
+    ]
   ]
 }

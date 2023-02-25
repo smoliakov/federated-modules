@@ -1,11 +1,9 @@
-import 'react-hot-loader';
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import HotApp from './hot';
+import App from './App';
 
 ReactDOM.render(
-  <HotApp />,
+  <App />,
   document.getElementById('root'),
 );

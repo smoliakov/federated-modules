@@ -32,8 +32,8 @@ Header.defaultProps = {
       link: '/',
     },
     {
-      label: 'Complexes',
-      link: '/complexes',
+      label: 'Houses',
+      link: '/houses',
     },
     {
       label: 'Flats',
